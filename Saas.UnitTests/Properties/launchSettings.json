@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Saas.UnitTests (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Saas.UnitTests (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

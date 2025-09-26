@@ -1,0 +1,16 @@
+﻿using Saas.Application.Abstractions;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Saas.Infrastructure.AppRuntime
+{
+    public sealed class AppContextAccessor : IAppContext
+    {
+        public Guid? AppId { get; internal set; }
+        public string? AppCode { get; internal set; }
+    }
+
+}
